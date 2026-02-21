@@ -29,6 +29,7 @@ img {
   font-size: large;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  background: linear-gradient(to top, rgba(229, 9, 9, 0.7), transparent);
 }
 
 .text-container * {
