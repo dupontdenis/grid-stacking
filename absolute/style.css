@@ -1,0 +1,45 @@
+.container {
+
+  width: 30em;
+  border-radius: 1em;
+
+  position: relative;
+
+}
+
+
+img {
+
+
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0;
+
+  height: max-content;
+  width: 100%;
+  background: rgba(85, 82, 104, 0.711);
+  color: white;
+  font-size: large;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.text-container * {
+  margin: 0.5em;
+}
+
+body {
+  display: grid;
+  place-content: center;
+
+  height: 80vh;
+  background: black;
+  color: white;
+}
